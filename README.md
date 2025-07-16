@@ -1,13 +1,6 @@
 # Timesheet Chrome Extension
 
-A Chrome extension that displays a React application in a 500px x 500px popup when you click the extension icon.
-
-## Features
-
-- React-based popup interface
-- 500px x 500px popup window
-- Modern gradient design
-- Interactive demo button
+A Chrome extension that displays a React application for tracking one's work. Created with the help of Cursor.
 
 ## Installation
 
@@ -17,13 +10,17 @@ A Chrome extension that displays a React application in a 500px x 500px popup wh
 npm install
 ```
 
-2. Build the extension:
+2. Add env vars with a `.env` file
+
+3. Host the backend on Vercel and connect a MongoDB instance with the MONGODB_URI variable
+
+4. Build the extension:
 
 ```bash
 npm run build
 ```
 
-3. Load the extension in Chrome:
+5. Load the extension in Chrome:
    - Open Chrome and go to `chrome://extensions/`
    - Enable "Developer mode" in the top right
    - Click "Load unpacked"
