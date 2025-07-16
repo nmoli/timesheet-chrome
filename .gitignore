@@ -1,0 +1,5 @@
+.vercel
+node_modules/
+.env
+popup.js
+.DS_Store
